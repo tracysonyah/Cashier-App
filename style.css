@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cashier form select {
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cashier form input {
+    border: 0;
+    outline: 0;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), -5px -5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    text-align: center;
+    color: #121212;
+    margin: 10px;
+}
+
+.cashier form button.remove {
+    width: 35px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.cashier form .name input {
+    width: 590px;
+}
+
+.cashier form .currency select {
+    height: 45px;
+    width: 603px;
+    border-radius: 5px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), -5px -5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+}
+
+.cashier form .order input {
+    width: 180px;
+}
+
+.cashier form .button button {
+    width: 600px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.cashier form .total button {
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.cashier form .total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cashier form button.add {
+    width: 180px;
+}
+
+.cashier form .total input {
+    width: 178px;
+}
